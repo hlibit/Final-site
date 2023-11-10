@@ -103,15 +103,19 @@ margin-left: 5%;
     height: 700px;
 }
 
+/* menu */
 .menu{
     display: flex;
     flex-direction: column;
     background-color: white;
     margin-top: 16px;
+    padding-bottom: 60px;
+ 
 }
 
 .menu-upper{
     display: flex;
+    padding-bottom: 80px;
 }
 
 .menu-upper-article-box , .menu-list-box{
@@ -184,3 +188,17 @@ padding: 20px;
     height: 100%;
     width: 100%;
 }
+
+/* events */
+.events{
+    background-color: white;
+    box-sizing: content-box;
+    padding-bottom: 40px;
+}
+
+
+.carousel-item img{
+    filter: brightness(0.5) ;
+}
+
+   
