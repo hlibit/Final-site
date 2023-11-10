@@ -76,7 +76,7 @@ body{
     padding: 20px;
 }
 .team-text h2{
-    font-family: 'Cormorant';
+    font-family: 'c';
 }
 
  .team-text i + h2 {
@@ -166,6 +166,7 @@ margin-left: 5%;
 .menu-bottom-sec-1 img{
     width: 100% ;
     height: 100%;
+    
 }
 
 .menu-bottom-sec-1 p{
@@ -191,9 +192,9 @@ padding: 20px;
 
 /* events */
 .events{
-    background-color: white;
+    /* background-color: white; */
     box-sizing: content-box;
-    padding-bottom: 40px;
+    padding-bottom: 30px;
 }
 
 
@@ -201,4 +202,122 @@ padding: 20px;
     filter: brightness(0.5) ;
 }
 
-   
+/* contacts */
+
+.contacts-section{
+    background-color: white;
+    padding: 15%;
+    padding-bottom: 100px;
+    padding-top: 100px;
+}
+
+.contacts-columns{
+    display: flex;
+    padding: 20px;
+    border: 1px solid black;
+    font-family: sans-serif;
+    flex-wrap: wrap;
+}
+
+.contacts-columns h2{
+    font-family: 'Cormorant' ;
+}
+
+.column_1{
+    margin-right: 15%;
+    
+}
+
+
+.column{
+    margin-right: 10%;
+    
+}
+
+.column > p{
+    margin-bottom: 40px;
+    width: 150px;
+}
+
+.column p+p{
+margin-bottom: 40px;
+}
+
+.column p+p ~p{
+    margin-bottom: 10px;
+}
+
+
+.column_3{
+    margin-right: 3%;
+}
+.column_3 p{
+    margin-bottom: 15px;
+    width: 200px;
+}
+
+
+.column_4 h2{
+    margin-bottom: 24px;
+    
+}
+
+
+.contacts-number{
+    color: black;
+    text-decoration: none;
+}
+
+.contacts-number:hover {
+    
+    text-decoration: underline;
+}
+/* footer */
+.footer{
+    margin-top: 30px;
+    display: flex;
+    background-color: white;
+    padding: 15px;
+    align-items: center;
+}
+
+.footer ul{
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer a{
+    margin-left: 100px;
+    text-decoration: none;
+    font-size: large;
+    color: grey;
+    
+}
+
+.logo_footer{
+    font-family: 'Caveat';
+    font-size: 25px;
+    padding: 0;
+    margin-left: 28%;
+    margin-bottom: 0;
+}
+
+.links_container{
+    display: flex;
+    margin-left: 35%;
+}
+
+.links_container a{
+    margin-left: 30px;
+}
+
+.photo_link {
+    width: 20px;
+    height: 20px;
+}
+
+a>img:hover {
+    transform: scale(1.2);
+}
