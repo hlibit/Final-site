@@ -1,9 +1,12 @@
 .about-container{
     display: flex;
     flex-direction: column;
+    min-width: 600px;
 }
-.main-head{
-    height: 100px;
+
+.head-list{
+    height: 80px;
+    align-items: center;
 }
 
 .logo {
@@ -14,6 +17,7 @@
     display: grid;
     grid-template-columns: 50% 50%;
     grid-template-rows: 50% 50%;
+    align-items: center;
 }
 
 .photo-about{
@@ -26,7 +30,7 @@
 }
 
 .text{
-    padding: 100px 200px;
+   margin: 0 auto;
 }
 
 .text h1{
